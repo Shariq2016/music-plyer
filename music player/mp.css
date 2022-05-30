@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+
+*
+{
+    /* background-color: rgb(237, 29, 10); */
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-attachment: fixed;
+   
+}
+.bdy
+{background-color: rgb(213, 219, 219);
+    background-image: url("https://i.pinimg.com/originals/b3/f4/c2/b3f4c21186400e3aeb62dff0324b8c1d.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover ;
+    /* padding: 44rem; */
+    
+   
+    
+}
+.msic{
+    height:30rem;
+    width:25rem;
+    background: rgb(11, 181, 51);
+    border-radius: 5rem;
+     box-shadow: 0 0 -1rem  rgba(0,0,0,.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     /* background: inherit; */
+     background-color: rgba(148, 129, 129, 0.15);   
+      backdrop-filter: blur(7.5px);
+      margin: 2rem;
+      padding: 2rem;
+    
+}
+.heading
+{
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+.info 
+{
+    margin-bottom: 1.2rem;
+    
+    text-align: center;
+    /* padding-bottom: 1rem; */
+    /* padding: 1.5rem; */
+
+}
+.info p
+{
+    margin-bottom: .3rem; 
+}
+.img
+{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    margin: 20px;
+    /* padding-bottom: 1rem; */
+
+}
+img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 30%;
+    object-fit: cover;
+    /* margin: 10px;  */
+}
+.musiccontrol
+{width: 9rem;
+    display: flex;
+    /* flex-direction: column; */
+    /* margin: 2rem; */
+    justify-content: space-between;
+    align-items: center;
+}
+.musiccontrol .mainbtn
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.musiccontrol .mainbtn:hover
+
+{
+    background:cornsilk;
+    color: rgb(13, 12, 12);
+    box-shadow: aliceblue;
+}
+.musiccontrol .fa-backward:hover
+{
+    color: goldenrod;
+}
+.musiccontrol  .fa-forward:hover
+{
+    color: #daa520;
+}
+#range
+{
+    width: 12rem;
+   color: aqua;
+   background: #000; 
+   margin-bottom: 1rem;
+}
+#loop
+{
+    margin-right: 1rem;
+}
+#loop:hover
+{
+color: #daa520;
+}

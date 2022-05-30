@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mp.css">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="/music-player-icon-audio-icon-communication-and-media-icon-png-favpng-tQYHgFp8iNdr3gynaZ99sfUj2.jpg" />
+    <script src="mp.js" defer></script>
+</head>
+<body>
+<div class="bdy">
+    <div class="msic">
+    <div class="heading"><h2>Now Playing</h2></div>
+   
+    <div class="img"><img src=""></div>
+    <div class="audio"><audio src="/Ghum kha gayi.mp3"></audio>
+        <div class="info"><p id="song">Song</p>
+            <p id="artist">Artist</p>
+        </div>
+        <div class="pbr">
+            <input type="range" id="range" name="range" min="0" value="0" max="100">
+        </div>
+        
+    <div class="musiccontrol">
+        <i class="fa-solid fa-repeat" id="loop" title="loop"> </i>
+      
+        <i class="fa-solid fa-backward" id="prev" title="previous"></i>
+        <i class="fa-solid fa-play mainbtn" id="play" title="play/pause"></i>
+        <i class="fa-solid fa-forward" id="forward" title="forward"></i>
+    </div>
+   
+</div>
+</div>
+</body>
+</html>
